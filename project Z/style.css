@@ -104,7 +104,7 @@ form.sign-in-form {
 }
 
 .input-field2 {
-  max-width: 209px;
+  max-width: 195px;
   width: 100%;
   background-color: #f0f0f0;
   margin: 10px 4px;
@@ -329,7 +329,7 @@ form.sign-in-form {
   pointer-events: all;
 }
 
-@media (max-width: 870px) {
+@media (max-width: 600px) {
   .container {
     min-height: 800px;
     height: 100vh;
@@ -456,4 +456,5 @@ form.sign-in-form {
     bottom: 28%;
     left: 50%;
   }
+ 
 }
