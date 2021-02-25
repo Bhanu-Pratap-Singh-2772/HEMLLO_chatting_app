@@ -425,6 +425,10 @@ form.sign-in-form {
     
   }
 
+  .btn {
+    width: 120px;
+  }
+
   .flt-3 .sec2 {
     float: none;
   }
@@ -504,6 +508,10 @@ form.sign-in-form {
     height: 36px;
     width: 36px;
     
+  }
+
+  .btn {
+    width: 100px;
   }
 
   .flt-3 .sec2 {
