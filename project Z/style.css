@@ -154,6 +154,10 @@ form.sign-in-form {
   padding: 0.7rem 0;
   font-size: 1rem;
 }
+.social-text a {
+  padding: 0.7rem 0;
+  font-size: 0.8rem;
+}
 
 .social-media {
   display: flex;
@@ -329,7 +333,7 @@ form.sign-in-form {
   pointer-events: all;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   .container {
     min-height: 800px;
     height: 100vh;
@@ -404,10 +408,23 @@ form.sign-in-form {
     top: initial;
     transition: 2s ease-in-out;
   }
+  
+  .social-text {
+    padding: 0.2rem 0;
+    font-size: 0.7rem;
+  }
+
   .input-field2 {
     max-width: 180px;
     max-height: 40px;
   }
+  
+  .social-icon {
+    height: 36px;
+    width: 36px;
+    
+  }
+
   .flt-3 .sec2 {
     float: none;
   }
@@ -443,7 +460,7 @@ form.sign-in-form {
   }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 767px) {
   form {
     padding: 0 1.5rem;
   }
@@ -467,10 +484,28 @@ form.sign-in-form {
     bottom: 28%;
     left: 50%;
   }
+  
+  .social-text {
+    padding: 0.2rem 0;
+    font-size: 0.7rem;
+  }
+
   .input-field2 {
     max-width: 180px;
     max-height: 40px;
   }
+  
+  .social-text a {
+    padding: 0.7rem 0;
+    font-size: 0.65rem;
+  }
+
+  .social-icon {
+    height: 36px;
+    width: 36px;
+    
+  }
+
   .flt-3 .sec2 {
     float: none;
   }
