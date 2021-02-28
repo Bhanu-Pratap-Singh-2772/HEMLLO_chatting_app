@@ -104,7 +104,7 @@ form.sign-in-form {
 }
 
 .input-field2 {
-  max-width: 190px;
+  max-width: 200px;
   width: 100%;
   background-color: #f0f0f0;
   margin: 10px 4px;
@@ -140,13 +140,24 @@ form.sign-in-form {
   color: #aaa;
   font-weight: 500;
 }
-
-.flt-3 .sec2 {
-  float: right;
-}
 .flt-3 .sec1 {
-  float: right;
+  float: left;
 
+}
+.flt-3 .sec2 {
+  float: left;
+}
+
+
+.gender .input-field2{
+  border: none;
+  opacity: 75%;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-left: 20px;
+  padding-right: 20px;
+ 
+  
 }
 
 
@@ -333,7 +344,7 @@ form.sign-in-form {
   pointer-events: all;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1100px) {
   .container {
     min-height: 800px;
     height: 100vh;
@@ -416,12 +427,12 @@ form.sign-in-form {
 
   .input-field2 {
     max-width: 380px;
-    max-height: 40px;
+    max-height: 30px;
   }
 
   .input-field2 i {
     
-    line-height: 40px;
+    line-height: 30px;
     
   }
   
@@ -502,12 +513,12 @@ form.sign-in-form {
 
   .input-field2 {
     max-width: 380px;
-    max-height: 40px;
+    max-height: 30px;
   }
 
   .input-field2 i {
     
-    line-height: 40px;
+    line-height: 30px;
     
   }
   
